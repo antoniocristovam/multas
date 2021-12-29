@@ -5,8 +5,8 @@ function calcular() {
     var txtvel = Number(velo.value);
 
     if (txtvel > 60) {
-        resmulta.innerHTML = (`A velocidade do seu carro é ${txtvel}Km/h Então você foi multado`);
+        resmulta.innerHTML = (`A sua velocidade é ${txtvel}Km/h Então você foi multado`);
     } else {
-        resmulta.innerHTML = (`A velocidade do seu carro é ${txtvel}Km/h Então você não foi multado`);
+        resmulta.innerHTML = (`A sua velocidade é ${txtvel}Km/h Então você NÃO foi multado`);
     }
 }
